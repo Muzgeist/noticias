@@ -1,12 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio do Felipe</title>
+    <link rel="stylesheet" href="/css/portifolio.css">
+    <script src="/js/portfolio.js" defer></script>
+    <link rel="shortcut icon" href="/ico/user.ico">
+    <title>portfolio</title>
+    
 </head>
-<body>
+<body onload="precarregar()">
+    <header>
+        <button id="tema-btn">Tema Claro</button>
+        <h1>Portfolio</h1>
+        <br>
+        <img src="/img/Lucas.jpg" alt="Lucas"><br>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#informacoes"> Informaçoes</a></li>
+            <li><a href="#habilidades"> Habilidades</a></li>
+            <li><a href="#experiencias"> Expreciencias</a></li>
+            <li><a href="#Projetos"> projetos</a></li>
+            <li><a href="#hobbies">hobbies</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="informacoes" id="informacoes">
+            <h2>Informaçoes</h2>
+            <p><strong>Nome:</strong> Felipe Shedler Ferreira Santos Zulmiro</p>
+            <p><strong>Email:</strong> Felipe@ficticio.com</p>
+            <p><strong>Telefone:</strong> (31) 985818619</p>
+        </section>
+        <section class="hobbies" id="hobbies"></section>
+        <hr>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>RPG de Mesa</li>
+            <li>Programaçao</li>
+            <li>Arte para RPG</li>
+            <li>Assistir Serie</li>
+            <li>Jogar Videogame</li>
+        </ul>
+        <hr>
+        <section class="habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>html 5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git e GitHub</li>
+                <li>Python</li>
+                <ul>
+                    <li>Pyside6</li>
+                    <li>PyMySQL</li>
+                    <li>PyInstaller</li>
+                </ul>
+            </ul>
+        </section>
+        <hr>
+        <section class="experiencias" id="experiencias">
+            <h2>Experiencias</h2>
+            <ul>
+                <li>Desenvolvimento de Programa desktop com Python e Pyside6</li>
+            </ul>
+            
+            
+        </section>
+        <hr>
+        <section class="projetos" id="projetos">
+            <h2>projetos</h2>
+            <ul>
+                <li><a href="https://github.com/Muzgeist/Yggdrasil">Yggdrasil</a></li>
+                <ul>
+                    <li>Um projeto feito em Html CSS e JavaScript, sendo um site para interligar ongs e adontantes de animais assim ajudando os animais a encontrarem um lar, possui sistema de filtros por especie idade e raça
 
+                    </li>
+                </ul>
+            </ul>
+            <ul>
+                <li> <a href="https://github.com/Muzgeist/Sarah-Assistente">Sarah</a></li>
+                <ul>
+                    <li>
+                        Um projeto pessoal para o desenvolvimento de uma assistente pessoal de IA para auxiliar nas terafas do dia a dia sendo capaz de ler resumir deletar e criar arquivos bem como fazer pesquisas aprofundadas rodando atualmente uma API do Groq
+                    </li>
+                </ul>
+            </ul>
+            <ul>
+                <li>
+                    Para demais projetos sinta-se convidado a visitar meu GitHub
+                </li>
+            </ul>
+            <a href="https://github.com/Muzgeist">
+            <img src="/img/GitHub-Logo.jpg" height="100pc" alt="">
+            </a>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        </ul>
+        <p>® Todos os direitos reservados.</p>
+        <p> Rua Paineiras 1300</p>
+        <p><a href="http://wa.me/5531987654321">(31) 987 654 321</a></p>
+        
+    </footer>
 
 </body>
 </html>
